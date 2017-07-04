@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!-- iReport connections -->
+<iReportConnectionSet>
+	<iReportConnection name="Empty datasource" connectionClass="com.jaspersoft.ireport.designer.connection.JREmptyDatasourceConnection">
+		<connectionParameter name="records"><![CDATA[1]]></connectionParameter>
+	</iReportConnection>
+	<iReportConnection name="dsBdFacturacion" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[sa]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[Facturacion]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[.]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerDriver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:sqlserver://localhost:1433;databaseName=Facturacion]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[root]]></connectionParameter>
+	</iReportConnection>
+</iReportConnectionSet>
